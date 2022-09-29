@@ -1,5 +1,7 @@
 
 #Use in terminal
+'git config --global user.name <your-name>'
+'git config --global user.email <your-email>'
 'git init' to initialize a new repository
 'git add' to add files to the staging area
 -   'git add .' to add all files
@@ -13,7 +15,9 @@
 -   'git push -u origin <branch-name>' pushes brach to origin
 'git pull' to pull changes from remote repo
 'git clone' to clone a repo into a new directory
-
+'git checkout -b <branch-name>' to create and checkout a new branch
+'git fetch' - refreshes the origin/<branch-name> of your repos
+'git branch --list --remote' - lists all remote branches
 
 
 #To setup SSH key with github
